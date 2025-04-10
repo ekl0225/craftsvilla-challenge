@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --preset-color-dark-green: #4c4b16;
+  --preset-color-green: #898121;
+  --preset-color-light-green: #e6c767;
+  --preset-color-orange: #f87a53;
+  --preset-color-brown: #705c53;
+  --preset-color-pink: #eddfe0;
+  --preset-color-white: #f5f5f7;
+  --preset-color-black: #322c2b;
+
+  --font-family-quicksand: "Quicksand", sans-serif;
+  --font-family-IBM-plex: "IBM Plex Serif", serif;
+}
+nav {
+  background-color: var(--preset-color-dark-green);
+}
+.nav2 {
+  background-color: var(--preset-color-light-green);
+  text-decoration: none;
+}
